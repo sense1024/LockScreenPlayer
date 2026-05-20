@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockScreen Player</string>
+    <string name="pick_video">動画を選択</string>
+    <string name="pick_video_hint">端末内の動画を選んで再生します。ロック中も音声は続き、画面を点灯すると映像を再表示します。</string>
+    <string name="notification_channel_name">メディア再生</string>
+    <string name="notification_channel_desc">ロック画面・バックグラウンド再生の操作</string>
+    <string name="playback_notification_title">再生中</string>
+    <string name="error_playback">このファイルを再生できません</string>
+    <string name="error_playback_unavailable">このファイルにアクセスできません。もう一度選択してください。</string>
+    <string name="error_service">再生サービスの起動に失敗しました</string>
+    <string name="permission_notifications_rationale">ロック画面で再生操作を表示するには、通知の許可が必要です。</string>
+    <string name="repeat_mode_label">リピートモード</string>
+    <string name="repeat_mode_play_once">1回再生</string>
+    <string name="repeat_mode_infinite">無限リピート</string>
+    <string name="settings">設定</string>
+    <string name="settings_language_title">表示言語</string>
+    <string name="language_system">システム設定に従う</string>
+    <string name="language_name_zh_tw">繁體中文</string>
+    <string name="language_name_en">English</string>
+    <string name="language_name_ja">日本語</string>
+    <string name="resume_playback">再生を再開：%1$s</string>
+</resources>

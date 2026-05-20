@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LockScreenPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <style name="Theme.LockScreenPlayer.Fullscreen" parent="Theme.LockScreenPlayer">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Widget.LockScreenPlayer.RepeatToggleButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/repeat_toggle_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="strokeColor">@android:color/transparent</item>
+        <item name="backgroundTint">@color/repeat_toggle_bg</item>
+    </style>
+
+</resources>
+

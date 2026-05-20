@@ -1,0 +1,67 @@
+# --- Gradle ---
+.gradle/
+**/build/
+!**/src/**/build/
+
+# Local machine paths (SDK location) — never commit
+local.properties
+
+# Kotlin incremental / caches (AGP 8+)
+.kotlin/
+
+# --- Android / AGP ---
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated (legacy / alternate outputs)
+bin/
+gen/
+out/
+
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keep shared run configs if you ever want them (uncomment):
+# !/.idea/runConfigurations/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# --- Signing & secrets (never commit keys or tokens) ---
+*.jks
+*.keystore
+signing.properties
+keystore.properties
+secrets.properties
+.env
+.env.*
+
+# Firebase / Google Services (uncomment if you add keys you do not want public)
+# google-services.json
+# GoogleService-Info.plist
+
+# --- Fastlane (if added later) ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output

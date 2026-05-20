@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockScreen 播放器</string>
+    <string name="pick_video">選擇影片</string>
+    <string name="pick_video_hint">選擇本地影片檔案開始播放。鎖屏後音訊會繼續；喚醒螢幕可恢復畫面。</string>
+    <string name="notification_channel_name">媒體播放</string>
+    <string name="notification_channel_desc">鎖屏與背景播放控制</string>
+    <string name="playback_notification_title">正在播放</string>
+    <string name="error_playback">無法播放此檔案</string>
+    <string name="error_playback_unavailable">無法存取此檔案，請重新選擇。</string>
+    <string name="error_service">播放服務啟動失敗</string>
+    <string name="permission_notifications_rationale">需要通知權限才能在鎖屏顯示播放控制。</string>
+    <string name="repeat_mode_label">播放重複模式</string>
+    <string name="repeat_mode_play_once">單次播放</string>
+    <string name="repeat_mode_infinite">無限重複</string>
+    <string name="settings">設定</string>
+    <string name="settings_language_title">介面語言</string>
+    <string name="language_system">跟隨系統</string>
+    <string name="language_name_zh_tw">繁體中文</string>
+    <string name="language_name_en">English</string>
+    <string name="language_name_ja">日本語</string>
+    <string name="resume_playback">繼續播放：%1$s</string>
+</resources>
